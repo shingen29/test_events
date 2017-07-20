@@ -1,3 +1,90 @@
 // Place all the styles related to the events controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.width-keeper {
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.12);
+}
+
+.list-title {
+  padding: 10px;
+  font-size: 1.4em;
+  background-color: #ececec;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-top-left-radius: 3px;
+  border-top-left-radius: #px;
+}
+
+.event-list-inner {
+  margin: 10px;
+}
+
+.event-card {
+  position: relative;
+  min-height: 120px;
+  text-decoration: none;
+  word-wrap: break-word;
+  border-top: 1px solid #ccc;
+}
+
+.event-card:first-child {
+  border: none;
+}
+
+.thumb-image-cover {
+  position: relative;
+  width: 15%;
+  float:left;
+}
+
+.thumb-image a img {
+  width:100%;
+}
+
+.start-date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  font-size: 12px;
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 1.0);
+}
+
+.event-content {
+  position: relative;
+  float: left;
+  width: 80%;
+  padding: 10px;
+}
+
+.event-title {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.event-summary {
+  margin: 10px 0 0 0;
+  color: #999;
+}
+
+.event-capacity {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right; 
+}
+
+.new-event {
+  padding: 10px;
+  border-top: solid 1px #ccc;
+}
